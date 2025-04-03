@@ -4,13 +4,12 @@ public class TranskripNilaiMain {
     public static void main(String[] args) {
         // Membuat dosen pengampu
         Dosen dosen1 = new Dosen("Dr. IR. Leony Lidya, M.T.");
-        Dosen dosen2 = new Dosen("Dr. IR. Leony Lidya, M.T.");
-        Dosen dosen3 = new Dosen("Siroj Nur Ulum, S.T., M.T.");
+        Dosen dosen2 = new Dosen("Siroj Nur Ulum, S.T., M.T.");
 
         // Membuat mata kuliah
         MataKuliah mk1 = new MataKuliah("001", "Algoritma Pemrograman 1", "A", 3, dosen1);
-        MataKuliah mk2 = new MataKuliah("002", "Algoritma Pemrograman 2", "BC", 3, dosen2);
-        MataKuliah mk3 = new MataKuliah("003", "Pemrograman Berorientasi Objek", "B", 3, dosen3);
+        MataKuliah mk2 = new MataKuliah("002", "Algoritma Pemrograman 2", "BC", 3, dosen1);
+        MataKuliah mk3 = new MataKuliah("003", "Pemrograman Berorientasi Objek", "B", 3, dosen2);
 
         // Membuat Kartu Hasil Studi untuk semester tertentu
         KartuHasilStudi khs = new KartuHasilStudi("20222");
